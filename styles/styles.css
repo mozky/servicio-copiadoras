@@ -1,0 +1,160 @@
+/* 
+	Colours:
+
+		Main Red:    #F44336
+		Gray:        #58585b
+		Dark gray:   #222222
+		Light gray:  #dddddd
+
+*/
+
+/* 	======================
+		General Styles
+	====================== */
+
+html {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* 	======================
+		   Header
+	====================== */
+
+.navbar-inverse {
+	background-color: #222;
+}
+
+#logotop {
+	margin-top: -15px;
+	padding: 3px;
+	height: 50px;
+}
+
+#nav-tel {
+	color: #fff;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+#nav-tel-icon {
+	color: #fff;
+	font-size: 25px;
+	line-height: 20px;
+	margin-right: 0px;
+}
+
+.socials {
+	margin-top: -7px;
+}
+
+.navbar-link {
+	height: 50px;
+}
+
+#hero {
+	background-color: #ddd;
+	margin-top: -20px;
+	padding: 30px 25px;
+}
+
+#hero-img {
+	position: absolute;
+	margin-top: 20px;
+	margin-left: -20px;	
+}
+
+
+
+
+/* 	======================
+		   Body
+	====================== */
+
+body {
+	background-color: #F44336;
+	padding-top: 50px;
+	position: relative;
+}
+
+body h1 {
+	color: #222;
+	font-size: 70px;
+	font-weight: 300;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.mayuscula {
+	color: #F44336;
+	font-size: 85px;
+	font-weight: bold;
+}
+
+.seccion p {
+	margin-left: 5%;
+	font-size: 16px;
+	font-weight: 400;
+	color: #222;
+	text-align: justify;
+}
+
+.seccion {
+	background-color: #ddd;
+	border-top: 25px solid #F44336;
+	padding: 20px 50px 25px 25px;
+}
+
+#ubicacion {
+	padding-bottom: 0px;
+	border-bottom: 40px solid #F44336;
+}
+
+#map-canvas {
+    height: 400px;
+    background-color: #CCC;
+	margin-bottom: 35px;
+  }
+
+.imagen {
+	border: 3px solid #58585b;
+}
+/* 	======================
+		   Footer
+	====================== */
+
+footer {
+	background: #222;
+	color: #fff;
+	padding: 15px 0px;
+	height: 50px;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+footer .container {
+	padding: 0px; 
+}
+
+.moz {
+	color: #888;
+	font-variant: small-caps;
+	text-decoration: none;
+}
+
+a.moz:link {
+	color: #888;
+	text-decoration: none;
+}
+
+
+a.moz:hover {
+	font-variant: small-caps;
+	color: #fff;
+	text-decoration: none;
+}
+
